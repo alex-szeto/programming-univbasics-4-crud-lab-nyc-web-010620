@@ -24,15 +24,15 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
-  console.log(array[index_number])
+  return array.at(index_number)
 end
 
 def retrieve_first_element_from_array(array)
-  return array[0]
+  return array.first
 end
 
 def retrieve_last_element_from_array(array)
-  return array[-1]
+  return array.last
 end
 
 def update_element_from_index(array, index_number, element)
